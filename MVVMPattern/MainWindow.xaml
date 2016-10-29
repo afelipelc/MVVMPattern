@@ -1,0 +1,43 @@
+﻿<Window x:Class="MVVMPattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMPattern"
+        mc:Ignorable="d"
+        Title="Patrón MVVM - WPF" Height="325.945" Width="775.172" FontSize="16">
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="317*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Datos" Margin="0,0,15,0">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Label Content="Nombre: " />
+                    <TextBox Width="150" Text="{Binding PersonaActual.Nombre, Mode=TwoWay, UpdateSourceTrigger=Default}" x:Name="nombreTxt"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                    <Label Content="Apellidos" />
+                    <TextBox Width="150" Text="{Binding PersonaActual.Apellidos, Mode=TwoWay, UpdateSourceTrigger=Default}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                    <Label Content="Edad (años): " />
+                    <TextBox Width="80" Text="{Binding PersonaActual.Edad, Mode=TwoWay, UpdateSourceTrigger=Default, StringFormat=\{0:0\}}" Margin="0,0,70,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,20" HorizontalAlignment="Center">
+                    <Button Height="32" Width="80" Margin="8,0" Content="Nuevo" Command="{Binding NuevoCommand}" x:Name="nuevoBtn" Click="nuevoBtn_Click"/>
+                    <Button Height="32" Width="80" Margin="8,0" Content="Guardar" Command="{Binding GuardarCommand}"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        
+        <DataGrid Grid.Column="1" HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Top" MaxHeight="300" Height="250"
+                  ItemsSource="{Binding Personas}"
+                  SelectedItem="{Binding PersonaActual}"
+			      SelectionMode="Single" CanUserAddRows="False" IsReadOnly="True" CanUserDeleteRows="False"/>
+    </Grid>
+</Window>

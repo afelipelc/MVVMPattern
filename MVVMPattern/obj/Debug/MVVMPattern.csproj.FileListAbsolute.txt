@@ -1,0 +1,14 @@
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\bin\Debug\MVVMPattern.exe.config
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\bin\Debug\MVVMPattern.exe
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\bin\Debug\MVVMPattern.pdb
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern.csprojResolveAssemblyReference.cache
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MainWindow.g.cs
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\App.g.cs
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern_MarkupCompile.cache
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern_MarkupCompile.lref
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MainWindow.baml
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern.g.resources
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern.Properties.Resources.resources
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern.csproj.GenerateResource.Cache
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern.exe
+c:\users\afelipelc\documents\visual studio 2015\Projects\MVVMPattern\MVVMPattern\obj\Debug\MVVMPattern.pdb
